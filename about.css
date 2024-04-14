@@ -1,0 +1,98 @@
+/* CSS styles for about.html */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav__content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0b2dd5;
+    text-decoration: none;
+}
+
+.checkbox {
+    display: none;
+}
+
+.checkbox i {
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.education,
+.experience {
+    margin-bottom: 30px;
+}
+
+.education h2,
+.experience h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.education-details,
+.experience-details {
+    margin-bottom: 30px;
+}
+
+.education-item,
+.experience-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.education-item h3,
+.experience-item h3 {
+    margin-top: 0;
+}
+
+.education-item p,
+.experience-item p {
+    line-height: 1.6;
+}

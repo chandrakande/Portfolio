@@ -1,0 +1,88 @@
+/* CSS styles for contact.html */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav__content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-right: auto; /* Adjusted margin-right to move the logo to the left */
+}
+
+.logo a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0b2dd5;
+    text-decoration: none;
+}
+
+.checkbox {
+    display: none;
+}
+
+.checkbox i {
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.info-item {
+    margin-right: 20px;
+}
+
+.info-item i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.info-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.info-item a:hover {
+    color: #666;
+}
